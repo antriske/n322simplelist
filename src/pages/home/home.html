@@ -1,14 +1,17 @@
 <ion-header>
   <ion-navbar>
+    <!--change the name of the title -->
     <ion-title>
-      Ionic Blank
+      Grocery App
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  This is the most awesome grocery app
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    click the button below togo to list.
   </p>
+<!--this button allows you to leave the homepage and enter the page with the LIST-->
+  <button ion-button (click)="gotoList()" full>Click here to view list</button>
 </ion-content>
